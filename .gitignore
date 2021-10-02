@@ -1,0 +1,10 @@
+
+*.iml
+.idea/codeStyles/codeStyleConfig.xml
+.idea/codeStyles/Project.xml
+.idea/dataSources.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/modules.xml
+.idea/php.xml
+.idea/sqldialects.xml
+.idea/vcs.xml

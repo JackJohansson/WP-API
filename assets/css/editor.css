@@ -1,0 +1,123 @@
+
+.components-form-token-field__label {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+@media (min-width: 600px) {
+    .components-form-token-field__input-container {
+        font-size: 13px;
+        line-height: normal;
+    }
+}
+
+.components-button {
+    display: inline-flex;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 0;
+    border: 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+    background: none;
+    transition: box-shadow .1s linear;
+    height: 36px;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border-radius: 2px;
+    color: #1E1E1E;
+}
+
+.components-form-token-field__token {
+    font-size: 13px;
+    display: flex;
+    margin: 2px 4px 2px 0;
+    color: #1E1E1E;
+    max-width: 100%;
+}
+
+.components-form-token-field__token-text {
+    border-radius: 2px 0 0 2px;
+    padding: 0 0 0 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.components-form-token-field__remove-token.components-button, .components-form-token-field__token-text {
+    display: inline-block;
+    line-height: 24px;
+    height: auto;
+    background: #DDDDDD;
+    min-width: unset;
+    transition: all .2s cubic-bezier(.4, 1, .4, 1);
+}
+
+.components-form-token-field__remove-token.components-button {
+    cursor: pointer;
+    border-radius: 0 2px 2px 0;
+    padding: 0 2px;
+    color: #1E1E1E;
+    line-height: 10px;
+    overflow: initial;
+}
+
+.meta-box-sortables input {
+    vertical-align: middle;
+}
+
+.edit-post-meta-boxes-area input, .edit-post-meta-boxes-area textarea {
+    box-sizing: border-box;
+}
+
+.components-form-token-field__input-container input[type=text].components-form-token-field__input {
+    display: inline-block;
+    flex: 1;
+    font-size: 16px;
+    width: 100%;
+    max-width: 100%;
+    margin-left: 4px;
+    padding: 0;
+    min-height: 24px;
+    min-width: 50px;
+    background: inherit;
+    border: 0;
+    color: #1E1E1E;
+    box-shadow: none;
+}
+
+.components-form-token-field__input-container .components-form-token-field__token + input[type=text].components-form-token-field__input {
+    width: auto;
+}
+
+.components-form-token-field__remove-token.components-button:hover {
+    color: #1E1E1E;
+}
+
+.components-button:not([aria-disabled=true]):active {
+    color: inherit;
+}
+
+.components-button svg {
+    fill: currentColor;
+    outline: none;
+}
+
+.components-form-token-field__input-container {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
+    box-shadow: 0 0 0 transparent;
+    transition: box-shadow .1s linear;
+    border-radius: 2px;
+    border: 1px solid #757575;
+    font-size: 16px;
+    line-height: normal;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 0 0 8px;
+    padding: 2px 4px;
+    cursor: text;
+}

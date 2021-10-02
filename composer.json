@@ -1,0 +1,24 @@
+{
+	"name" : "jackjohansson/wp-api",
+	"description" : "A WordPress solution for fast, scalable and configurable API creation.",
+	"minimum-stability" : "stable",
+	"license" : "proprietary",
+	"authors" : [
+		{
+			"name" : "Jack Johansson",
+			"email" : "info@jackjohansson.com"
+		}
+	],
+	"require" : {
+		"php" : "^7.4|^8.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"WP_API\\" : "Classes/"
+		},
+		"files" : [
+			"Support/Boot.php",
+			"Support/Helpers.php"
+		]
+	}
+}
